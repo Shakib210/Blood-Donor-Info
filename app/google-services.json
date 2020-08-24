@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "457549418031",
+    "firebase_url": "https://blood-donor-adeca.firebaseio.com",
+    "project_id": "blood-donor-adeca",
+    "storage_bucket": "blood-donor-adeca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457549418031:android:eaffc8c760b64c7faf80da",
+        "android_client_info": {
+          "package_name": "com.example.blooddonor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "457549418031-0g161pnkncd4vundcae0sbbivimd3jvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU79rDKvnSVu99VzH_aGxn4iV6Kd6sXFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "457549418031-0g161pnkncd4vundcae0sbbivimd3jvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

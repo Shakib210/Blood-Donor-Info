@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue_grey_900"
+
+    tools:context=".RegActivity">
+
+
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Full Name"
+        android:backgroundTint="@color/brown_100"
+        android:textColor="@color/brown_100"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/brown_100"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Group: "
+            android:textColor="@color/brown_100"
+            android:layout_marginRight="10dp"
+            android:textSize="18dp"
+            />
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown_100"
+            android:id="@+id/group"
+            />
+    </LinearLayout>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phn"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:backgroundTint="@color/brown_100"
+        android:textColor="@color/brown_100"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/brown_100"
+        />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adr"
+        android:hint="Address"
+        android:backgroundTint="@color/brown_100"
+        android:textColor="@color/brown_100"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/brown_100"
+        />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:hint="Last Donate"
+        android:inputType="date"
+        android:backgroundTint="@color/brown_100"
+        android:textColor="@color/brown_100"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/brown_100"
+        />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pin"
+        android:hint="Enter pin"
+        android:inputType="numberPassword"
+        android:backgroundTint="@color/brown_100"
+        android:textColor="@color/brown_100"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/brown_100"
+        />
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Female"
+            android:checked="true"
+            android:textColor="@color/brown_100"
+            android:layout_marginLeft="10dp"
+            />
+
+        <View
+            android:layout_width="@dimen/spacing_mlarge"
+            android:layout_height="0dp" />
+
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Male"
+            android:backgroundTint="@color/brown_100"
+            android:textColor="@color/brown_100"
+            android:layout_marginLeft="10dp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded_primary"
+        android:text="REGISTER"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded_primary"
+        android:text="Display"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
